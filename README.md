@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/aws-cloud-club-logo.png" alt="AWS Cloud Club Logo" width="180"/>
+  <img src="./assets/aws-cloud-club-logo.jpg" alt="AWS Cloud Club Logo" width="180"/>
 </p>
 
 <h1 align="center">Cloud & DevOps Hackathon – AWS</h1>
