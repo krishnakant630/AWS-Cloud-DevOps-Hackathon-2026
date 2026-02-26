@@ -1,185 +1,128 @@
-<p align="center">
-  <img src="./assets/aws-cloud-club-logo.jpg" alt="AWS Cloud Club Logo" width="180"/>
-</p>
+# 🎬 CINEPEDIA – Movie Information Website
 
-<h1 align="center">CloudSprint: AWS DevOps Challenge</h1>
+CINEPEDIA is a modern and responsive movie information website that allows users to explore movies, view details, and discover trending content in an elegant and user-friendly interface.
 
-<p align="center">
-  Organized by <strong>AWS Cloud Club KIET</strong><br/>
-  Under the <strong>Department of Computer Science and Engineering (CSE)</strong><br/>
-  Learning Cloud and DevOps through real-world implementation
-</p>
+🚀 Live Demo: [http://YOUR_PUBLIC_IP ](http://13.218.163.43/) 
+
+📂 Repository: https://github.com/Dharmendra-9450/CINEPEDIA_WEBSITE
 
 ---
 
-## Index
+## 📌 Overview
 
-1. [Introduction](#introduction)  
-2. [Objectives of the Hackathon](#objectives-of-the-hackathon)  
-3. [Target Audience and Skill Levels](#target-audience-and-skill-levels)  
-4. [Hackathon Format](#hackathon-format)  
-5. [Team Formation Rules](#team-formation-rules)  
-6. [Repository Submission Structure](#repository-submission-structure-mandatory)  
-7. [Project README Requirements](#project-readme-requirements)  
-8. [Demo Video Submission](#demo-video-submission-mandatory)  
-9. [Submission Process](#submission-process)  
-10. [Rules and Code of Conduct](#rules-and-code-of-conduct)  
-11. [Expected Learning Outcomes](#expected-learning-outcomes)  
-12. [Final Organizer Statement](#final-organizer-statement)
+CINEPEDIA is designed to provide:
+
+- 🎥 Movie browsing experience
+- 🔍 Search functionality
+- 📱 Fully responsive design
+- 🎨 Clean UI with interactive elements
+- ⚡ Fast loading performance
+
+This project demonstrates strong frontend development skills using HTML, CSS, and JavaScript.
 
 ---
 
-## Introduction
+## 🛠️ Tech Stack
 
-The Cloud and DevOps Hackathon is a structured, hands-on learning event designed to introduce students to modern cloud computing and DevOps practices using Amazon Web Services (AWS).
-
-This hackathon follows a learning-first approach. The primary goal is not competition, but to ensure that every participant gains practical experience in deploying, managing, automating, monitoring, and securing applications in cloud environments. Students are encouraged to focus on clarity, correctness, and understanding rather than project size or complexity.
-
----
-
-## Objectives of the Hackathon
-
-The objectives of this hackathon are:
-
-- To introduce students to core cloud computing concepts  
-- To explain the end-to-end DevOps lifecycle  
-- To build confidence in deploying and managing applications on AWS  
-- To promote hands-on learning through real-world cloud use cases  
-- To encourage best practices in documentation, security, and automation  
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- Responsive Web Design Principles
+- Deployed on **AWS EC2 (Ubuntu + Nginx)**
 
 ---
 
-## Target Audience and Skill Levels
+## 📂 Project Structure
 
-This hackathon is designed for students with different levels of technical experience.
+CINEPEDIA_WEBSITE/
+├── index.html
 
-### Beginner Level
-Students who are new to cloud computing and DevOps concepts and have little or no experience with AWS deployments.
+├── style.css
 
-### Intermediate Level
-Students with prior exposure to application deployment, Docker, or basic automation tools.
-
-Each team must submit one project from the Beginner level and one project from the Intermediate level.
+├── script.js
 
 ---
 
-## Hackathon Format
+## ✨ Features
 
-- Type: Guided Mini Hackathon  
-- Theme: Cloud and DevOps using Amazon Web Services  
-
-Mentors will be available throughout the event to guide participants conceptually. Mentors will not write, configure, or deploy solutions on behalf of the teams.
-
----
-
-## Team Formation Rules
-
-- Each team must consist of 4 to 5 members  
-- Each team must form a single submission unit  
-- Cross-year and mixed-experience teams are encouraged  
-- Each team must submit exactly two projects:  
-  - One Beginner project  
-  - One Intermediate project  
+✔️ Interactive Movie Cards  
+✔️ Clean and Modern UI  
+✔️ Responsive for Mobile & Desktop  
+✔️ Organized Code Structure  
+✔️ Easy Deployment  
 
 ---
 
-## Repository Submission Structure (Mandatory)
+## 🚀 Deployment (AWS EC2)
 
-Each team must create a single folder using their team name as shown below.
+This project is deployed using:
 
-```
+- Ubuntu Server 22.04
+- Nginx Web Server
+- Git for version control
 
-Team-YourTeamName/
-├── beginner/
-│   └── beginner-project-name/
-│       ├── README.md
-│       ├── architecture.png
-│       └── src/
-│
-└── intermediate/
-      └── intermediate-project-name/
-      ├── README.md
-      ├── architecture.png
-      └── src/
+### Deployment Steps:
 
-```
-
-Submissions that do not strictly follow this structure will not be evaluated.
+1. Launch EC2 instance
+2. Install Nginx
+3. Clone repository
+4. Move files to `/var/www/html`
+5. Restart Nginx
 
 ---
 
-## Project README Requirements
+## 🧠 Learning Outcomes
 
-Each project, both Beginner and Intermediate, must contain a detailed README.md file with the following sections:
+Through this project, I learned:
 
-- Problem Statement  
-- Architecture Overview  
-- AWS Services Used  
-- Deployment Steps  
-- Security Considerations  
-- Challenges Faced  
-- Key Learnings  
-- Screenshots (optional)  
-- Demo Video Link (mandatory)  
+- Frontend website structuring
+- Responsive layout design
+- Server deployment using AWS EC2
+- Using Git & GitHub for version control
+- Basic DevOps workflow
 
 ---
 
-## Demo Video Submission (Mandatory)
+## 📸 Screenshots
 
-Each project must include a recorded demo video with a duration of 5 to 8 minutes.
+<img width="1919" height="946" alt="image" src="https://github.com/user-attachments/assets/db4b1dc3-65e9-4a6d-8112-c39c441c053f" />
 
-The video must be uploaded to YouTube and can be either Public or Unlisted.
 
-The demo video must cover:
-- Problem explanation  
-- Architecture walkthrough  
-- AWS services used  
-- Application deployment or execution  
-- Observations and learnings  
+<img width="1613" height="733" alt="image" src="https://github.com/user-attachments/assets/54d4ed85-a7b5-4104-8c10-b577b1fd3086" />
 
-The YouTube video link must be added inside the project README.md file.
 
-Projects submitted without a demo video link will receive heavy penalties or may be rejected.
+<img width="1919" height="979" alt="image" src="https://github.com/user-attachments/assets/7d6b2d68-7dd0-4706-9606-d477332f36b3" />
+
+
+
+
 
 ---
 
-## Submission Process
+## 📈 Future Improvements
 
-1. Fork this repository to your GitHub account  
-2. Create a folder using your team name  
-3. Add both Beginner and Intermediate projects following the defined structure  
-4. Ensure all documentation and video links are present  
-5. Raise a single Pull Request for evaluation  
-
-Multiple pull requests from the same team are not allowed.
+- 🔐 User authentication system
+- 🎞️ Integration with Movie API
+- 🌙 Dark/Light mode toggle
+- ⭐ Movie rating system
+- 🗄️ Backend database integration
 
 ---
 
-## Rules and Code of Conduct
+## 👨‍💻 Author
 
-- Plagiarism is strictly prohibited  
-- Pre-built or copied projects are not allowed  
-- Mentors may guide conceptually but must not implement solutions  
-- All participants are expected to follow ethical and respectful collaboration practices  
+**Dharmendra Patel**
 
----
-
-## Expected Learning Outcomes
-
-By the end of the hackathon, participants will be able to:
-
-- Understand AWS core services and cloud fundamentals  
-- Deploy real-world applications on cloud infrastructure  
-- Apply DevOps principles and automation workflows  
-- Design and explain cloud architectures confidently  
-- Document projects in a professional and structured manner  
+- GitHub: https://github.com/Dharmendra-9450
 
 ---
 
-## Final Organizer Statement
+## 📄 License
 
-“This hackathon is about learning Cloud and DevOps by doing, not about building the biggest project.”
+This project is open-source and available under the MIT License.
 
-Team AWS Cloud Club KIET
+---
+
+⭐ If you like this project, please consider giving it a star on GitHub!
 
 
